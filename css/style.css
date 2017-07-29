@@ -82,38 +82,41 @@ section#about p.about-content {
 
 
 
-footer#contact>h2 {
-    text-align:center;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 23px;
+
+
+
+
+footer#contact {
+    padding: 30px; 50px;
+    background: #222;
 }
 
-footer#contact>address {
-    text-align:center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    color: white;
- 
-  
+footer#contact
+h2#contact-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:7px;
+    color: #fff;
 }
 
-footer#contact>address>a {
-    text-align:center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    color: white;
-    text-decoration: none;
- 
-  
+footer#contact address#contact-content {
+    text-align: center;
+    color:#fff;
+    font-style: normal;
+    margin-top: 10px;
 }
 
-footer {
-    background-color: black;
-    height: 200px;
+footer#contact address#contact-content a {
+    color:#fff;
 }
+
+footer#contact address#contact-content a:hover{
+    color:#999;
+}
+
+
+
 
 
 
