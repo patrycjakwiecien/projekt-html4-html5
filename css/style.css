@@ -30,7 +30,7 @@ nav#menu >ul {
 
 li>a {
       color: white;
-    margin-left: 50px;
+    margin: 40px;
  text-decoration: none;
 }
 
@@ -38,36 +38,49 @@ nav#menu>ul>li.menu-item a:hover {
     color: #999;
 }
 
-#header {
-    font-size: 17px;
+/*header styles*/
+
+header#header {
+    position: relative;
     text-align: center;
 }
 
-section#about>article>h3 {
-    text-align:center;
-    margin-bottom: 20px;
+header#header img {
+    width:100%;
+}
+
+header#header>h1#main-header-text {
+    
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+        right:0;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+section#about {
+    margin:30px 0;
+    padding: 0 50px;
  
 }
 
-section#about>h2 {
+section#about>h2#about-header {
     text-align:center;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-section#about>article {
+section#about p.about-content {
+    
     text-align:center;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+   
 }
 
-section#about>article>h3 {
-    text-align:center;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 23px;
-}
+
 
 footer#contact>h2 {
     text-align:center;
@@ -102,33 +115,8 @@ footer {
     height: 200px;
 }
 
-header#header>.img { 
-    width:200px height:200px}
 
-/*header styles*/
 
-header#header {
-    position: relative;
-    text-align: center;
-}
-
-heade#header img {
-    width:100%;
-
-}
-
-header#header h1#main-header-text {
-    
-    position: absolute;
-    top: 50%;
-    font-size: 50px;
-    font-weight: 700;
-    margin: 0 auto;
-    left: 0;
-        right:0;
-    text-transform: uppercase;
-    color:#ffffff;
-}
 
 
 
